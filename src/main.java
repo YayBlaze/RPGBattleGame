@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
 import java.util.InputMismatchException;
@@ -187,6 +186,8 @@ public class main {
             }
             if (coins == 0) {
                 System.out.println("You have 0 coins...\nThat means you lose...\nHope you play again!");
+                userInput.nextLine();
+                userInput.nextLine();
                 break;
             }
         }
@@ -378,4 +379,3 @@ public class main {
         return player;
     }
 }
-
