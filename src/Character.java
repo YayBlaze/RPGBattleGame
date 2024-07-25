@@ -32,24 +32,24 @@ public class Character {
         this.typeint = type;
         switch (type) {
             case 0 -> {
-                this.def = this.lvl * 15 + this.inv[2];
-                this.str = this.lvl * 10 + this.inv[1];
+                this.def = (this.lvl/2) * 15 + this.inv[2];
+                this.str = (this.lvl/2) * 10 + this.inv[1];
                 this.type = "Tank";
             }
             case 1 -> {
-                this.def = this.lvl * 10 + this.inv[2];
-                this.str = this.lvl * 15 + this.inv[1];
+                this.def = (this.lvl/2) * 10 + this.inv[2];
+                this.str = (this.lvl/2) * 15 + this.inv[1];
                 this.type = "Warrior";
             }
             case 2 -> {
-                this.def = this.lvl * 5 + this.inv[2];
-                this.str = this.lvl * 20 + this.inv[1];
+                this.def = (this.lvl/2) * 5 + this.inv[2];
+                this.str = (this.lvl/2) * 20 + this.inv[1];
                 this.type = "Beast";
             }
             default -> {
                 System.out.println("That isn't an option! You can be a warrior I guess.");
-                this.def = this.lvl * 10 + this.inv[2];
-                this.str = this.lvl * 15 + this.inv[1];
+                this.def = (this.lvl/2) * 10 + this.inv[2];
+                this.str = (this.lvl/2) * 15 + this.inv[1];
             }
         }
     }

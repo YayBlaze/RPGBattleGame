@@ -56,7 +56,7 @@ public class main {
                             coins -= lvlcost;
                             player.lvl++;
                             player.setStats(player.typeint);
-                            lvlcost +=5;
+                            lvlcost = lvlcost *2;
                             System.out.println("Upgrade complete.");
                         }
                         continue;
