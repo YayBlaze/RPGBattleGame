@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RPGArena:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RPGArena_jar</output-path>
+    <root id="archive" name="RPGArena.jar">
+      <element id="module-output" name="RPGArena" />
+    </root>
+  </artifact>
+</component>
